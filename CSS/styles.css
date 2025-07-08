@@ -1,0 +1,239 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.passions-conflict-regular {
+  font-family: "Passions Conflict", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* LIMPIAR CÓDIGO */
+.zero-clean{
+margin: 0 0 0 0; 
+padding:0 0 0 0;
+border-radius: 0 0 0 0;
+border:0;
+outline:0;     
+}
+
+/* COMPONENTES */
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 207, 240, 0.892);
+}
+
+
+
+.banner{
+    width: 100% !important;
+}
+
+.box-1{
+    width: 100%;
+    margin:40px 0 40px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.box-2{
+    width: 100%;
+    display:flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0!important;
+    padding: 0 30px 0 30px!important;
+}
+
+.cafesito-logo {
+  animation: move 6s ease-in infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0px, 0);
+  }
+  50% {
+    transform: translate(50px, 0);
+  }
+  100% {
+    transform: translate(0px, 0);
+  }
+}
+
+
+
+.whiteHearts{
+    width: 50%;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.bdays{
+    background-color: rgb(247, 251, 255);
+    margin-top: 50px;
+    padding: 50px 0 50px 0;
+    border-radius: 5em;
+    @media(min-width: 0px) and (max-width:700px)  
+    {display: block!important;}
+
+}
+
+.title{
+    color: #664a4a;
+    font-family: "Passions Conflict", cursive;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 100px;
+    text-align: center;
+    @media(min-width: 0px) and (max-width:767px)  
+    {font-size: 70px!important;}
+}
+
+.skzoo{
+    width: 50px;
+    height: auto;
+}
+
+.boxCumple{
+     @media(min-width: 0px) and (max-width:767px)  
+    {display: flex;
+    flex-direction: column
+    ;}
+}
+
+.box-bdays{
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box-content-bdays{
+  width: 18rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+  margin-top: 3rem;
+  background-color: rgb(247, 251, 255);
+  border: 0.4rem dotted;
+  border-radius: 2.5rem;
+  border-color: rgb(119, 236, 236);
+  box-shadow: 5px 5px 25px rgba(106, 203, 230, 0.525);
+  color: #513636;
+}
+
+
+#triangle-topleft {
+width: 0;
+height: 0;
+border-top: 80px solid rgb(119, 236, 236);;
+border-radius: 23% 0 0 0;
+border-right: 80px solid transparent;
+}
+
+#triangle-bottomright {
+width: 0;
+height: 0;
+border-bottom: 80px solid rgb(119, 236, 236);
+border-radius: 0 0 35% 0;
+border-left: 80px solid transparent;
+}
+
+.pill-mes{
+  width: auto;
+  height: 50px;
+  padding: 1rem ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color:rgb(255, 141, 208);
+  border-radius:300px;
+  margin: 1rem  1rem 0 0;
+
+}
+
+.mes-texto{
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #f0eaea;
+  margin-bottom: 0!important;
+  text-transform: uppercase;
+}
+
+
+.padre{
+  position: relative;
+}
+
+.hijo{
+  position: absolute;
+  top: -10px;
+  left: -5px;
+  transform: rotate(-25deg);
+  height: 80px;
+  width: auto;
+}
+
+.img-uno{
+    background-image: url("/assets/cata.jpg");
+    background-size: cover;
+}
+
+.img-dos{
+  background-image: url("/assets/eli.jpg");
+  background-size: cover;
+}
+
+.img-tres{
+  background-image: url("/assets/michelle.jpg");
+  background-size: cover;
+}
+
+.img-cuatro{
+  background-image: url("/assets/Fabi.jpg");
+  background-size: cover;
+}
+
+.img-cinco{
+  background-image: url("/assets/naty.jpg");
+  background-size: cover;
+}
+
+.box-nombre{
+  padding: 1rem;
+  background-color: rgb(247, 251, 255);
+  border: 4px solid rgb(255, 141, 208) ;
+
+}
+
+.nombre{
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: #f0eaea;
+  text-transform: uppercase;
+  color: rgb(255, 141, 208);
+  margin-bottom: 0!important;
+}
