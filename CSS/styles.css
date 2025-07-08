@@ -220,6 +220,12 @@ border-left: 80px solid transparent;
   background-size: cover;
 }
 
+.img-seis{
+  background-image: url("../assets/Deni.jpg");
+  background-size: cover;
+}
+
+
 .box-nombre{
   padding: 1rem;
   background-color: rgb(247, 251, 255);
