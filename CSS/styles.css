@@ -196,27 +196,27 @@ border-left: 80px solid transparent;
 }
 
 .img-uno{
-    background-image: url("/assets/cata.jpg");
+    background-image: url("assets/cata.jpg");
     background-size: cover;
 }
 
 .img-dos{
-  background-image: url("/assets/eli.jpg");
+  background-image: url("assets/eli.jpg");
   background-size: cover;
 }
 
 .img-tres{
-  background-image: url("/assets/michelle.jpg");
+  background-image: url("assets/michelle.jpg");
   background-size: cover;
 }
 
 .img-cuatro{
-  background-image: url("/assets/Fabi.jpg");
+  background-image: url("assets/Fabi.jpg");
   background-size: cover;
 }
 
 .img-cinco{
-  background-image: url("/assets/naty.jpg");
+  background-image: url("assets/naty.jpg");
   background-size: cover;
 }
 
