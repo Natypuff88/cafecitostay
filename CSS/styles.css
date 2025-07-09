@@ -106,6 +106,24 @@ body{
     height: auto;
 }
 
+.skzoomenu{
+  transition: transform 0.2s ease; 
+}
+
+.skzoomenu:hover {
+  animation: rotationskzoo 1.5s infinite linear;
+  filter: drop-shadow(-5px 5px 10px rgba(255, 207, 240, 0.892));
+}
+
+@keyframes rotationskzoo {
+  from {
+    transform: rotate(30deg);
+  }
+  to {
+    transform: rotate(-30deg);
+  }
+}
+
 .boxCumple{
      @media(min-width: 0px) and (max-width:767px)  
     {display: flex;
@@ -138,8 +156,12 @@ body{
   border-color: rgb(119, 236, 236);
   box-shadow: 5px 5px 25px rgba(106, 203, 230, 0.525);
   color: #513636;
+  transition: transform 0.3s ease; 
 }
 
+.box-content-bdays:hover {
+  transform: scale(1.2); /* agranda 20% */
+}
 
 #triangle-topleft {
 width: 0;
@@ -200,6 +222,7 @@ border-left: 80px solid transparent;
     background-size: cover;
 }
 
+
 .img-dos{
   background-image: url("../assets/eli.jpg");
   background-size: cover;
@@ -225,6 +248,15 @@ border-left: 80px solid transparent;
   background-size: cover;
 }
 
+.img-siete{
+  background-image: url("../assets/mari.jpg");
+  background-size: cover;
+}
+
+.img-ocho{
+  background-image: url("../assets/catu.jpg");
+  background-size: cover;
+}
 
 .box-nombre{
   padding: 1rem;
@@ -243,3 +275,4 @@ border-left: 80px solid transparent;
   color: rgb(255, 141, 208);
   margin-bottom: 0!important;
 }
+
