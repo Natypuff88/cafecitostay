@@ -258,6 +258,17 @@ border-left: 80px solid transparent;
   background-size: cover;
 }
 
+.img-nueve{
+  background-image: url("../assets/thiaresita.JPG");
+  background-size: cover;
+}
+
+
+.img-diez{
+  background-image: url("../assets/solcita.jpg");
+  background-size: cover;
+}
+
 .box-nombre{
   padding: 1rem;
   background-color: rgb(247, 251, 255);
