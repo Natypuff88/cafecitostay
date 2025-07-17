@@ -217,6 +217,19 @@ border-left: 80px solid transparent;
   width: auto;
 }
 
+.hijo2{
+  position: absolute;
+  bottom: -30px;
+  right:0px;
+  transform: rotate(-25deg);
+  height: 120px;
+  width: auto;
+}
+
+  
+
+
+
 .img-uno{
     background-image: url("../assets/cata.jpg");
     background-size: cover;
@@ -265,7 +278,7 @@ border-left: 80px solid transparent;
 
 
 .img-diez{
-  background-image: url("../assets/solcita.jpg");
+  background-image: url("../assets/solcita.png");
   background-size: cover;
 }
 
