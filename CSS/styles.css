@@ -157,10 +157,13 @@ body{
   box-shadow: 5px 5px 25px rgba(106, 203, 230, 0.525);
   color: #513636;
   transition: transform 0.3s ease; 
+  z-index: 0;
 }
 
 .box-content-bdays:hover {
   transform: scale(1.2); /* agranda 20% */
+  z-index: 10;
+
 }
 
 #triangle-topleft {
